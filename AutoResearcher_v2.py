@@ -17,7 +17,7 @@ def choose_random_word():
     return random.choice(word_list)
 
 # Configuring Edge Driver (check driver path)
-edge_driver_path = r"C:\\Users\\Admin\\Documents\\Microsoft Rewards Bot\\Microsoft Rewards Bot\\msedgedriver.exe" #put inside the "..." the path where you downloaded the driver:; remember to use \\ as the example
+edge_driver_path = r"C:\\Users\\Admin\\Documents\\Microsoft Rewards Bot\\Microsoft Rewards Bot\\msedgedriver.exe" #put inside the "..." the path where you downloaded the driver; remember to use \\ as the example
 edge_options = webdriver.EdgeOptions()
 edge_service = EdgeService(executable_path=edge_driver_path)
 driver = webdriver.Edge(options=edge_options, service=edge_service)
