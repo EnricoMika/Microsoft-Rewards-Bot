@@ -1,7 +1,7 @@
 # Microsoft-Rewards-Bot
 
 Instructions:
-1. Install Python from https://www.python.org/
+1. Download and install Python from https://www.python.org/
 2. Download Microsoft Edge driver from https://developer.microsoft.com/microsoft-edge/tools/webdriver
 3. Open the .py file with the Notepad and set the pathing where you downloaded the Edge driver using this format: `C:\\Users\\Admin\\Documents\\Microsoft Rewards Bot\\Microsoft Rewards Bot\\msedgedriver.exe` (line 20)
 
